@@ -1,0 +1,100 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    color: #666;
+}
+
+/* Sections */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #444;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding-left: 20px;
+    text-indent: -20px;
+}
+
+ul li::before {
+    content: "• ";
+    color: #007acc;
+}
+
+/* Job and Project Details */
+.job, .project {
+    margin-bottom: 10px;
+}
+
+.job h3, .project h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.job p, .project p {
+    color: #555;
+}
+
+/* Education and Certifications */
+.certifications ul, .education {
+    padding-left: 10px;
+}
+
+.certifications ul li, .education p {
+    color: #555;
+    padding-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
